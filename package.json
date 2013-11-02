@@ -2,8 +2,7 @@
   "name": "batch-image-resizer",
   "version" : "0.1.1",
   "main" : "image-resizer.js",
-  "devDependencies": {
-    "grunt": "~0.4.1",
+  "dependencies": {
     "gm": "~1.13.3",
     "grunt-ez-frontend": "~0.2.1",
     "mkdirp": "~0.3.5",
