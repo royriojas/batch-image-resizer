@@ -1,6 +1,6 @@
 {
   "name": "batch-image-resizer",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "devDependencies": {
     "grunt": "~0.4.1",
     "gm": "~1.13.3",
