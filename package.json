@@ -1,12 +1,18 @@
 {
   "name": "batch-image-resizer",
-  "version" : "0.1.1",
-  "main" : "image-resizer.js",
+  "version": "0.1.1",
+  "main": "image-resizer.js",
   "dependencies": {
     "gm": "~1.13.3",
     "grunt-ez-frontend": "~0.2.1",
     "mkdirp": "~0.3.5",
     "async": "~0.2.9",
-    "JQDeferred": "~1.9.1"
-  }
+    "JQDeferred": "~1.9.1",
+    "snyk": "^1.88.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
