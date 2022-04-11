@@ -6,7 +6,7 @@
     "gm": "~1.13.3",
     "grunt-ez-frontend": "~0.2.1",
     "mkdirp": "~0.3.5",
-    "async": "~0.2.9",
+    "async": "~3.2.2",
     "JQDeferred": "~1.9.1"
   }
 }
